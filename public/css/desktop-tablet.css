@@ -1,0 +1,59 @@
+/* Estilos post mobile para arriba */
+@media (min-width: 460px) {
+
+  .logo_searchbar_lupa > img{
+    width: 30%;
+  }
+
+  .busqueda{
+    width: 30%;
+  }
+
+  .busqueda input {
+    width: 100%;
+  }
+
+  .manito_compra_cuotas{
+    width: 30%;
+  }
+  .menu_container {
+    display: none;
+  }
+
+  .lista_hipervinculo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lista_hipervinculo ul li {
+    display: inline;
+  }
+
+  .producto {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+
+  }
+
+/* Estilos PC */
+@media (min-width: 768px) {
+  .articulos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-around;
+    padding: 0 1rem;
+  }
+  }
+
+
+/* Estilos tablet */
+@media (max-width: 768px) {
+  .articulos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around; 
+    padding: 0 1rem; 
+  }
+} 
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "./reset.css";
+
+@import "./mobile.css";
+
+@import "./desktop-tablet.css";
+
+
+html, body { 
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 30px 15px;
+}
+
+.logo_searchbar_lupa {
+display: flex; 
+flex-wrap: wrap;
+gap: 10px;
+align-items: center;
+justify-content: space-between;
+}
+
+.busqueda input {
+    padding: 10px 25px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.busqueda {
+    position: relative;
+    
+}
+.busqueda > i {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.manito_compra_cuotas {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.titulo { 
+    font-size: 24px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.cuerpo {font-size: 12px;}
+
+
+
+main { 
+    background-color:#ebebeb;
+    margin: 0px;
+}
+
+
+
+
+/*propiedades para aritculos en comun*/        
+
+.Caja-articulo {
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    height: 5rem;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito_compras {
+    color: rgb(0, 150, 0,.9) ;
+    position: absolute;
+    right: 0%;
+    top: -20px;
+    padding: 5px;
+    border-width: 2px;
+    border-color:  rgb(0, 150, 0,.9);
+    border-style: solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.precios{
+
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.descuentos{
+
+    box-sizing: border-box;
+    text-align: left;
+    color: rgb(0, 150, 0, .9);
+    font-size: 1.2rem;
+    font-weight: 550;
+    padding-left: 5px;   
+}
+
+.precios_descuentos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;   
+}
+.descripciones {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+
+
+
+   /* ola */
